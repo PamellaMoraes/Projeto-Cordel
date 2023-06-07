@@ -1,0 +1,100 @@
+@charset "UTF-8";
+*{
+    margin:0px;
+    padding:0px;
+
+}
+
+@font-face {
+    font-family:"Prilly Monly" ;
+    src: url(Fontes/Prilly\ Monly.otf) format("opentype");
+    src: url(Fontes/Prilly\ Monly.ttf) format("truetype");
+    font-weight: normal;}
+
+@font-face{
+    font-family: "Cordel Encarnado";
+    src: url(Fontes/Cordel\ Encarnado.otf) format("opentype");
+    font-weight: normal;}
+    
+:root{
+    --fonte-texto:"Prilly Monly";
+    --font-destaque:"Cordel Encarnado";
+    --font-normal:"Verdana, Geneva, Tahoma, sans-serif";
+}
+
+body{min-height: 100vh;}
+
+main{text-shadow: 1px 1px 0px  rgba(0, 0, 0, 0.728);}
+
+header{ 
+        background-color: black;
+        color: white;
+        text-align: center;}
+
+h1{
+        font-family: var(--font-destaque);
+        font-size:5em; /*  O que vai fazer com que a fonte fique 5 vezes maior que o seu tamanho base
+        (aproximadamente 16px, dependendo do navegador). E esse tamanho será mantido,
+        tanto para telas pequenas quanto para telas grandes. */
+        padding-top: 50px;
+        text-align: center;
+        font-weight: bolder;}
+
+
+
+p{padding-bottom: 50px;} /* por Milton duarte */
+
+a{
+        color: white;
+        padding-bottom: 50px;  
+        text-decoration: none; 
+        font-weight: bolder;}
+
+a:hover{
+        font-style: italic;
+        transition-duration: 0.5s;}
+
+section{
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        padding-left: 30px;
+        font-family:var(--fonte-texto);
+        font-size: 3vw;  /*(VW significa veiw width(a largura);) */
+        }
+
+
+.normal{
+        background-color: white;
+        color: black;}
+
+
+.imagem{background-attachment: fixed;
+        background-color: rgb(51,51,51);
+        color: white;
+        background-size: cover;
+        box-shadow: inset 5px 5px 15px 0px rgba(0, 0, 0, 0.574);}
+
+.imagem > p {
+        background-color: rgba(0, 0, 0, 0.555);
+        display: inline-block;
+        padding: 5px;
+       
+    
+    
+    }
+
+#img1{
+        background-image: url(imagens/img0.jpg);
+        position: center, bottom; }
+        
+#img2{
+        background-image: url(imagens/background002.jpg);
+        position: right, center;}
+
+
+footer{
+        background-color: black;
+        color: white;
+        font-size: 1em;
+        text-align: center;
+        padding: 10px;}
