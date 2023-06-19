@@ -59,7 +59,7 @@ section{
         padding-bottom: 10vh;
         padding-left: 30px;
         font-family:var(--fonte-texto);
-        font-size: 3vw;  /*(VW significa veiw width(a largura);) */
+        font-size: 2em;   /* (VW significa veiw width(a largura);) */
         }
 
 
