@@ -59,7 +59,7 @@ section{
         padding-bottom: 10vh;
         padding-left: 30px;
         font-family:var(--fonte-texto);
-        font-size: 50px;   /* (VW significa veiw width(a largura);) */
+        font-size: 200%;   /* (VW significa veiw width(a largura);) */
         }
 
 
@@ -91,6 +91,6 @@ section{
 footer{
         background-color: black;
         color: white;
-        font-size: 1em;
+        font-size: 12px;
         text-align: center;
         padding: 10px;}
