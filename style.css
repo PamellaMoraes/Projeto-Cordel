@@ -27,7 +27,7 @@ body{min-height: 100vh;}
 main{text-shadow: 1px 1px 0px  rgba(0, 0, 0, 0.728);}
 
 header{ 
-        background-color: rgb(255, 0, 0);
+        background-color: rgb(0, 0, 0);
         color: white;
         text-align: center;}
 
@@ -59,7 +59,7 @@ section{
         padding-bottom: 10vh;
         padding-left: 30px;
         font-family:var(--fonte-texto);
-        font-size: 35px   /* (VW significa veiw width(a largura);) */
+        font-size: 200% /* (VW significa veiw width(a largura);) */
         }
 
 
