@@ -27,7 +27,7 @@ body{min-height: 100vh;}
 main{text-shadow: 1px 1px 0px  rgba(0, 0, 0, 0.728);}
 
 header{ 
-        background-color: black;
+        background-color: rgb(255, 0, 0);
         color: white;
         text-align: center;}
 
