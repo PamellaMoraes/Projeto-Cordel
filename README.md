@@ -15,6 +15,5 @@ Desenvolvido com HTML5 e CSS3. Incorpora efeitos visuais usando CSS puro.
 Status do projeto:
 Finalizado. Criado durante o curso em vídeo, com ênfase em responsividade e técnicas de design.
 
-
-
+Agradeço por conferir esse projeto! Se tiver alguma dúvida ou feedback, sinta-se à vontade para entrar em contato pelo e-mail pamellamoraes.f@gmail.com .
 
